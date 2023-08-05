@@ -24,7 +24,7 @@ const Services = () => {
           {/* item */}
           <div className="services-item-container">
             <div className="services-item">
-              <span>
+              <span className="faCode">
                 <FaCode />
               </span>
               <div className="item-desc">
@@ -37,7 +37,7 @@ const Services = () => {
               </div>
             </div>
             <div className="services-item">
-              <span>
+              <span className="desktop">
                 <FaDesktop />
               </span>
               <div className="item-desc">
@@ -50,7 +50,7 @@ const Services = () => {
               </div>
             </div>
             <div className="services-item">
-              <span>
+              <span className="tablet">
                 <FaTabletAlt />
               </span>
               <div className="item-desc">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
+import {Link} from "react-router-dom"
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const navbarhandler = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
         <div className={navbar ? "nav-links active" : "nav-links"}>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <a href="#">About</a>

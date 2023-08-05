@@ -29,7 +29,7 @@ const BannerSection = () => {
             voluptatibus esse expedita obcaecati impedit distinctio labore
             mollitia praesentium velit? Eaque, nisi?
           </p>
-          <button className="btn btn-color">Hire Me</button>
+          <button className="btn">Hire Me</button>
         </div>
         {/* img container */}
         <div className="profile-img-container">
